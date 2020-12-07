@@ -1,4 +1,5 @@
 using System;
+using conways_simple_design;
 using Xunit;
 
 namespace conwaysTest
@@ -8,7 +9,8 @@ namespace conwaysTest
         [Fact]
         public void TestANewWorldIsEmpty()
         {
-            var word = new World();
+            var world = new World();
+            Assert.Equal(0, world.Living_cells.count);
         }
     }
 }
