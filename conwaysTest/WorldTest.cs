@@ -12,5 +12,14 @@ namespace conwaysTest
             var world = new World();
             Assert.True(world.Empty);
         }
+
+        [Fact]
+        public void TestACellCanBeAddedToTheWorld()
+        {
+            var world = new World();
+            world.set_living_at(1, 1);
+            Assert.True(world.alive_at(1,1));
+            
+        }
     }
 }
