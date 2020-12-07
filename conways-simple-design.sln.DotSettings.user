@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=09508f03_002Dc302_002D4f33_002Db2b8_002D27d6170f78c5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestANewWorldIsEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::587AF84C-7C7A-444B-8935-E2A343DF0B14::.NETCoreApp,Version=v3.1::conwaysTest.WorldTest.TestANewWorldIsEmpty&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::587AF84C-7C7A-444B-8935-E2A343DF0B14::.NETCoreApp,Version=v3.1::conwaysTest.WorldTest.TestACellCanBeAddedToTheWorld&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
