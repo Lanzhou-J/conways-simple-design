@@ -10,7 +10,7 @@ namespace conwaysTest
         public void TestANewWorldIsEmpty()
         {
             var world = new World();
-            Assert.Equal(0, world.Living_cells.count);
+            Assert.True(world.Empty);
         }
     }
 }
