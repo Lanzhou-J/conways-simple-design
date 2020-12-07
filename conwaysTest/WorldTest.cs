@@ -19,7 +19,9 @@ namespace conwaysTest
             var world = new World();
             world.SetLivingAt(1, 1);
             Assert.True(world.AliveAt(1,1));
-            
+            Assert.False(world.Empty);
         }
+        
+        
     }
 }
